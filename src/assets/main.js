@@ -1,12 +1,12 @@
-const API = 'https://youtube138.p.rapidapi.com/auto-complete/?q=ESPNFans&hl=en&gl=US'
+const API = 'https://youtube-v31.p.rapidapi.com/search?channelId=UCw05fUBPwmpu-ehXFMqfdMw&part=snippet%2Cid&order=date&maxResults=9';
 
 const content = null || document.getElementById('content');
 
 const options = {
 	method: 'GET',
 	headers: {
-		'X-RapidAPI-Key': '19d47816e7msh4d394e6aae81aebp11d7a1jsn5aba0051f47f',
-		'X-RapidAPI-Host': 'youtube138.p.rapidapi.com'
+		'X-RapidAPI-Host': 'youtube-v31.p.rapidapi.com',
+        'X-RapidAPI-Key': 'c68edbdba9mshc3cb6eb8038f3b2p1f444ajsna5de19fe1256'
 	}
 };
 
